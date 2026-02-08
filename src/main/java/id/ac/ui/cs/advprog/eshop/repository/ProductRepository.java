@@ -15,7 +15,7 @@ public class ProductRepository {
         productData.add(product);
         return product;
     }
-    // Te
+
     public Iterator<Product> findAll() {
         return productData.iterator();
     }
