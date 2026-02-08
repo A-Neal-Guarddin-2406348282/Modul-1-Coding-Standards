@@ -9,4 +9,5 @@ public interface ProductService {
 
     Product findProductById(String productId);
     Product updateProduct(Product product);
+    boolean deleteProduct(String productId);
 }

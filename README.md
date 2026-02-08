@@ -5,5 +5,6 @@ Refleksi tentang source code:
 nama fungsi, error handler, dan class organizations. Menurut prinsip Clean Code, fungsi bisa jadi pendek, bagus dinamai, dan rapih.
 3. Mengurangi penggunaan comment code
 4. Untuk pembuatan fitur edit dan delete product menggunakan `productId` bertipe String. Awalnya mengerjakan untuk branch 
-edit-product baru setelah itu delete-product. Untuk edit-product menggunakan method `updateProduct()`
+edit-product baru setelah itu delete-product. Untuk edit-product menggunakan method `updateProduct()`. Sementara delete-product
+menggunakan methid `deleteProduct()`
 5. 
