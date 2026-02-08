@@ -25,12 +25,11 @@ public class ProductRepository {
     }
 
     public Product findProductById(String productId) {
-        for (Product product : productData) {
-            if (product.getProductId() != null && product.getProductId().equals(productId)) {
-                return product;
+        for (Product p : productData) {
+            if (p.getProductId() != null && p.getProductId().equals(productId)) {
+                return p;
             }
         }
-
         return null;
     }
 
@@ -38,7 +37,6 @@ public class ProductRepository {
         if (product.getProductId() == null || product.getProductId().isBlank()) {
             return null;
         }
-
         for (int i = 0; i < productData.size(); i++) {
             Product currentProduct = productData.get(i);
             if (product.getProductId().equals(currentProduct.getProductId())) {
@@ -46,7 +44,6 @@ public class ProductRepository {
                 return product;
             }
         }
-
         return null;
     }
 
