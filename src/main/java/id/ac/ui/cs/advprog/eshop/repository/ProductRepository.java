@@ -24,4 +24,30 @@ public class ProductRepository {
         return productData.iterator();
     }
 
+    public Product findProductById(String productId) {
+        for (Product p : productData) {
+            if (p.getProductId() != null && p.getProductId().equals(productId)) {
+                return p;
+            }
+        }
+        return null;
+    }
+
+    public Product updateProduct(Product product) {
+        if (product.getProductId() == null || product.getProductId().isBlank()) {
+            return null;
+        }
+        for (int i = 0; i < productData.size(); i++) {
+            Product currentProduct = productData.get(i);
+            if (product.getProductId().equals(currentProduct.getProductId())) {
+                productData.set(i, product);
+                return product;
+            }
+        }
+        return null;
+    }
+
+    public boolean deleteProduct(String productId) {
+        return productData.removeIf(p -> p.getProductId() != null && p.getProductId().equals(productId));
+    }
 }
