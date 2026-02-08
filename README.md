@@ -1,4 +1,4 @@
-# Exercise 1:
+# Refleksi 1:
 Refleksi tentang source code:
 1. Sempat ketika run application tidak ditemukan file htmlnya (CreateProduct.html dan ProductList.html), ternyata cuman salah format nama hehe
 2. Implementasi clean code yang maksudnya mudah dibaca, kuat untuk dipahami, dan mudah dijaga. Konvensi nama variabel, 
