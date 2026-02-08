@@ -1,0 +1,36 @@
+:root{
+    /* dark green palette */
+    --brand: #166534;    /* green-800 */
+    --brand-2: #14532d;  /* green-900 */
+    --nav-bg: #052e1b;   /* very dark green */
+}
+
+body{
+    background: linear-gradient(180deg, #f8fafc 0%, #eef2ff 100%);
+}
+
+.navbar-brand{
+    font-weight: 700;
+    letter-spacing: .2px;
+}
+
+.card{
+    border: 0;
+    border-radius: 14px;
+    box-shadow: 0 10px 24px rgba(15, 23, 42, .08);
+}
+
+.btn-primary{
+    background-color: var(--brand);
+    border-color: var(--brand);
+}
+.btn-primary:hover{
+    background-color: var(--brand-2);
+    border-color: var(--brand-2);
+}
+
+.badge-soft{
+    background: rgba(22, 101, 52, .12);
+    color: #14532d;
+    border: 1px solid rgba(22, 101, 52, .18);
+}
