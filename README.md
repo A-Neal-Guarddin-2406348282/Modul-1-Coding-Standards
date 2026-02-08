@@ -8,5 +8,6 @@ nama fungsi, error handler, dan class organizations. Menurut prinsip Clean Code,
 edit-product baru setelah itu delete-product. Untuk edit-product menggunakan method `updateProduct()`. Sementara delete-product
 menggunakan methid `deleteProduct()`. Untuk halaman edit dibuat file html baru yaiut `EditProduct.html`
 5. Terjadi kesalahan dalam git stash dan cara mergenya. Akhirnya belajar gimana cara pakai `git stash` dan `git stash pop`
-dengan benar dan kapan penggunaannya ketika pindah branch
+dengan benar dan kapan penggunaannya ketika pindah branch. Dan apabila terjadi kesalahan dalam `git stash`, gimana cara retrieve
+data berdasarkan `git stash list`
 6. 
